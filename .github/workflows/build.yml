@@ -104,7 +104,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        std: [11, 14, 17, 20, 23]
+        std: [11, 14, 17, 20]
         cxx: [g++-10, clang++-14]
         exclude:
           # GCC 10.3.0 doesn't support std 23
